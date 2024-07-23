@@ -3,3 +3,14 @@
 @tailwind utilities;
 
 /* npm run watch:css to live transform/build any updated css */
+
+@font-face {
+    font-family: 'Inter Tight';
+    src: url('../assets/fonts/InterTight-SemiBold.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Inter Tight', serif;
+}
